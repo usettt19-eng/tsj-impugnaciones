@@ -1,0 +1,12 @@
+{
+  "estado": "pendiente_de_verificacion",
+  "aviso": "No se ha leído el baremo ni se ha cotejado ninguna disposición. Las entradas siguientes son pistas de trabajo del encargo editorial, no criterios.",
+  "pistas": [
+    {"id": "N-BAREMO", "referencia": "Baremo de evaluación", "fuenteId": "F-BAREMO", "estado": "No leído. Falta: emisor, fecha, versión, páginas, criterios, puntajes y umbrales."},
+    {"id": "N-CRBV-263", "referencia": "Constitución, art. 263 (y posibles vías alternativas de trayectoria profesional)", "fuenteId": "F-CRBV", "estado": "Pista de trabajo mencionada en una sesión anterior. Texto exacto y vigencia sin cotejar. No exigir a la vez requisitos de vías alternativas."},
+    {"id": "N-LOTSJ", "referencia": "Ley Orgánica del TSJ y reformas aplicables", "fuenteId": null, "estado": "Sin fuente primaria obtenida."},
+    {"id": "N-INSTITUCIONAL", "referencia": "Información institucional del TSJ", "fuenteId": "F-TSJ-INSTITUCIONAL", "estado": "Enlace sin consultar."}
+  ],
+  "clasesDeCriterio": ["elegibilidad", "incompatibilidad", "puntuacion", "otro"],
+  "regla": "Separar requisitos de elegibilidad, incompatibilidades, criterios de puntuación y antecedentes de interés público. Una deducción editorial no es una causal legal automática."
+}

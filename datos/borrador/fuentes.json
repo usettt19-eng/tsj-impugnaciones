@@ -1,0 +1,67 @@
+[
+  {
+    "id": "F-PDF-LISTADO",
+    "titulo": "Postulaciones al Tribunal Supremo de Justicia · TSJ 2026 (PDF, 37 páginas)",
+    "emisor": "Giuseppe Gangi · tsj.macedoniadelnorte.com (proyecto independiente)",
+    "url": null,
+    "tipo": "secundaria",
+    "fechaDocumento": "2026-11-20",
+    "fechaConsulta": "2026-11-20",
+    "paginaOSeccion": "Páginas 1–37",
+    "citaBreve": null,
+    "verificada": false,
+    "nota": "Listado aportado por el editor. Reproduce un aviso oficial; no es el aviso original. Fecha tomada de los metadatos del PDF (20-nov-2026). Sin URL directa registrada."
+  },
+  {
+    "id": "F-AVISO-AN",
+    "titulo": "Aviso del Comité de Postulaciones Judiciales (publicado por la Asamblea Nacional en prensa)",
+    "emisor": "Comité de Postulaciones Judiciales / Asamblea Nacional",
+    "url": null,
+    "tipo": "primaria",
+    "fechaDocumento": "2026-11-20",
+    "fechaConsulta": "2026-11-20",
+    "paginaOSeccion": null,
+    "citaBreve": null,
+    "verificada": false,
+    "nota": "Fecha según lo declara el PDF. El aviso original NO ha sido obtenido ni cotejado."
+  },
+  {
+    "id": "F-BAREMO",
+    "titulo": "Baremo (referencia suministrada por el editor)",
+    "emisor": "Sin determinar (el sitio es tsj.macedoniadelnorte.com)",
+    "url": "https://tsj.macedoniadelnorte.com/baremo",
+    "tipo": "secundaria",
+    "fechaDocumento": null,
+    "fechaConsulta": "2026-11-20",
+    "paginaOSeccion": null,
+    "citaBreve": null,
+    "verificada": false,
+    "nota": "No se pudo leer su contenido íntegro. No se atribuye ningún criterio, puntaje ni umbral."
+  },
+  {
+    "id": "F-CRBV",
+    "titulo": "Constitución de la República Bolivariana de Venezuela (PDF alojado en cgr.gob.ve)",
+    "emisor": "Contraloría General de la República (alojamiento del texto)",
+    "url": "https://www.cgr.gob.ve/assets/pdf/leyes/Constitucion.pdf",
+    "tipo": "primaria",
+    "fechaDocumento": null,
+    "fechaConsulta": "2026-11-20",
+    "paginaOSeccion": null,
+    "citaBreve": null,
+    "verificada": false,
+    "nota": "Enlace suministrado en el encargo. No consultado ni cotejado en esta fase."
+  },
+  {
+    "id": "F-TSJ-INSTITUCIONAL",
+    "titulo": "TSJ · Acerca de (información institucional)",
+    "emisor": "Tribunal Supremo de Justicia",
+    "url": "https://tsj.gob.ve/acerca-de",
+    "tipo": "primaria",
+    "fechaDocumento": null,
+    "fechaConsulta": "2026-11-20",
+    "paginaOSeccion": null,
+    "citaBreve": null,
+    "verificada": false,
+    "nota": "Enlace suministrado en el encargo. No consultado en esta fase."
+  }
+]

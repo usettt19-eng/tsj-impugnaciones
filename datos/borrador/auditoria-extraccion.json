@@ -1,0 +1,110 @@
+{
+ "declaradoEnPdf": {
+  "postulaciones": 1343,
+  "personas": 1128,
+  "magistrado": 1066,
+  "inspector": 166,
+  "director": 111,
+  "personasConMasDeUnaPostulacion": 174
+ },
+ "extraido": {
+  "postulaciones": 1343,
+  "personasPorNombreNormalizado": 1128,
+  "magistrado": 1066,
+  "inspector": 166,
+  "director": 111,
+  "personasConMasDeUnaPostulacionPorNombre": 174
+ },
+ "filasConColumnaTambienA": 389,
+ "anomaliasNumeracion": [
+  {
+   "cargo": "magistrado",
+   "filas": 1066,
+   "numeroMaximo": 1066,
+   "numerosFaltantes": [],
+   "numerosDuplicados": [],
+   "filasFueraDeSecuencia": [
+    {
+     "pagina": 7,
+     "nombre": "DA SILVA VÁSQUEZ JESÚS MANUEL",
+     "numeroEnFuente": 258
+    },
+    {
+     "pagina": 8,
+     "nombre": "D´ALESSIO RODRÍGUEZ RITA ANTONIA",
+     "numeroEnFuente": 255
+    },
+    {
+     "pagina": 11,
+     "nombre": "GONZÁLEZ D´ELIA BAGNURA LORENA",
+     "numeroEnFuente": 389
+    },
+    {
+     "pagina": 12,
+     "nombre": "HERNÁNDEZ GONZÁLEZ NEREIDA MARLENE",
+     "numeroEnFuente": 446
+    },
+    {
+     "pagina": 18,
+     "nombre": "NÚÑEZ SIFONTES JOSÉ FERNANDO",
+     "numeroEnFuente": 671
+    },
+    {
+     "pagina": 21,
+     "nombre": "RAMÍREZ HERRERA DANIEL AUGUSTO",
+     "numeroEnFuente": 799
+    },
+    {
+     "pagina": 22,
+     "nombre": "RODRÍGUEZ DE GONZÁLEZ GRACE MATILETH",
+     "numeroEnFuente": 853
+    }
+   ]
+  },
+  {
+   "cargo": "inspector",
+   "filas": 166,
+   "numeroMaximo": 166,
+   "numerosFaltantes": [],
+   "numerosDuplicados": [],
+   "filasFueraDeSecuencia": [
+    {
+     "pagina": 30,
+     "nombre": "DALE HERNÁNDEZ JOANA LUISA",
+     "numeroEnFuente": 48
+    },
+    {
+     "pagina": 32,
+     "nombre": "QUINTERO RAMÍREZ LUCIA",
+     "numeroEnFuente": 127
+    },
+    {
+     "pagina": 33,
+     "nombre": "SOTO MARTÍNEZ ILDEMAR ROSEL",
+     "numeroEnFuente": 155
+    }
+   ]
+  },
+  {
+   "cargo": "director",
+   "filas": 111,
+   "numeroMaximo": 111,
+   "numerosFaltantes": [],
+   "numerosDuplicados": [],
+   "filasFueraDeSecuencia": [
+    {
+     "pagina": 36,
+     "nombre": "RODRÍGUEZ DUARTE JOEL JOSÉ",
+     "numeroEnFuente": 94
+    },
+    {
+     "pagina": 37,
+     "nombre": "VISPO LÓPEZ MARÍA CRISTINA",
+     "numeroEnFuente": 60
+    }
+   ]
+  }
+ ],
+ "crucesTambienAnoCorroborados": [],
+ "nombresRepetidosEnMismoCargo": []
+}

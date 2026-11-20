@@ -1,0 +1,39 @@
+{
+  "esquema": "1.0",
+  "DEMOSTRACION": true,
+  "generadoEn": "2026-11-20",
+  "config": {
+    "titulo": "Observatorio ciudadano de postulaciones al TSJ",
+    "subtitulo": "Requisitos, evidencia documental y revisión pública",
+    "estadoPublicacion": "DEMOSTRACIÓN: datos ficticios. No son registros reales.",
+    "fechaActualizacion": "2026-11-20",
+    "canalCorrecciones": null,
+    "periodoImpugnacionesAnunciado": null
+  },
+  "documentos": [{"id": "DOC-DEMO", "titulo": "Listado ficticio de demostración", "fuenteId": "F-DEMO-LISTADO", "version": "demo", "naturaleza": "FICTICIO", "esOficial": false, "declaraEnPortada": null, "afirmacionesDelAutorNoAuditadas": []}],
+  "procesos": [
+    {"id": "demo-magistrado", "cargo": "magistrado", "nombre": "Proceso ficticio (magistrados)", "documentoId": "DOC-DEMO", "fase": 1, "declaradas": 3},
+    {"id": "demo-inspector", "cargo": "inspector", "nombre": "Proceso ficticio (inspectores)", "documentoId": "DOC-DEMO", "fase": 2, "declaradas": 1}
+  ],
+  "fuentes": [
+    {"id": "F-DEMO-LISTADO", "titulo": "Listado ficticio", "emisor": "DEMOSTRACIÓN", "url": null, "tipo": "secundaria", "fechaDocumento": "2026-01-01", "fechaConsulta": "2026-11-20", "paginaOSeccion": "p. 1", "citaBreve": null, "verificada": false, "nota": "Fuente inventada para probar la interfaz."},
+    {"id": "F-DEMO-CERT", "titulo": "Certificación ficticia de ejercicio profesional", "emisor": "Institución ficticia", "url": null, "tipo": "primaria", "fechaDocumento": "2020-05-10", "fechaConsulta": "2026-11-20", "paginaOSeccion": "folio 3", "citaBreve": "Texto ficticio de demostración.", "verificada": true, "nota": "FICTICIA."},
+    {"id": "F-DEMO-PRENSA", "titulo": "Nota de prensa ficticia", "emisor": "Medio ficticio", "url": null, "tipo": "secundaria", "fechaDocumento": "2025-03-02", "fechaConsulta": "2026-11-20", "paginaOSeccion": null, "citaBreve": null, "verificada": false, "nota": "FICTICIA."},
+    {"id": "F-DEMO-DESCARGO", "titulo": "Comunicado de respuesta ficticio", "emisor": "Persona ficticia", "url": null, "tipo": "primaria", "fechaDocumento": "2025-03-09", "fechaConsulta": "2026-11-20", "paginaOSeccion": null, "citaBreve": null, "verificada": true, "nota": "FICTICIO."}
+  ],
+  "criterios": [
+    {"id": "C-DEMO-1", "nombre": "Criterio ficticio de trayectoria (DEMOSTRACIÓN)", "clase": "elegibilidad", "norma": "Norma ficticia", "articuloOApartado": "art. X", "textoExacto": null, "fuenteId": "F-DEMO-CERT", "vigenciaVerificada": true, "grupoAlternativo": "vía A"}
+  ],
+  "normativa": {"estado": "demo", "aviso": "Contenido ficticio.", "pistas": [], "clasesDeCriterio": ["elegibilidad"], "regla": ""},
+  "personas": [
+    {"id": "D0001", "nombreComoEnFuente": "FICTICIO UNO PERSONAJE DEMOSTRACIÓN", "postulaciones": [{"procesoId": "demo-magistrado", "cargo": "magistrado", "numeroEnFuente": 1, "documentoId": "DOC-DEMO", "pagina": 1, "declaraTambienA": ["inspector"]}, {"procesoId": "demo-inspector", "cargo": "inspector", "numeroEnFuente": 1, "documentoId": "DOC-DEMO", "pagina": 2, "declaraTambienA": ["magistrado"]}]},
+    {"id": "D0002", "nombreComoEnFuente": "FICTICIA DOS PERSONAJE DEMOSTRACIÓN", "postulaciones": [{"procesoId": "demo-magistrado", "cargo": "magistrado", "numeroEnFuente": 2, "documentoId": "DOC-DEMO", "pagina": 1, "declaraTambienA": []}]},
+    {"id": "D0003", "nombreComoEnFuente": "FICTICIO TRES PERSONAJE DEMOSTRACIÓN", "postulaciones": [{"procesoId": "demo-magistrado", "cargo": "magistrado", "numeroEnFuente": 3, "documentoId": "DOC-DEMO", "pagina": 1, "declaraTambienA": []}]}
+  ],
+  "hallazgos": [
+    {"id": "H-DEMO-1", "personaId": "D0001", "tituloNeutral": "Certificación de ejercicio profesional (ficticia)", "hecho": "Se obtuvo una certificación ficticia que acredita ejercicio profesional entre 2005 y 2020.", "fechaHecho": "2020-05-10", "criterioIds": ["C-DEMO-1"], "fuenteIds": ["F-DEMO-CERT"], "estadoEvidencia": "documento_primario", "evaluacionNormativa": "cumplimiento_documentado", "fundamento": "Ficticio: el documento cubre el período exigido por el criterio ficticio.", "limites": "Solo cubre el criterio ficticio indicado; no acredita otros requisitos.", "descargo": null, "busquedaDescargoRegistrada": true, "fuentesDescargoIds": [], "decisionOficial": null, "revisionEditorial": "aprobada", "revisionJuridica": "no_aplica", "ultimaRevision": "2026-11-20", "publicable": true},
+    {"id": "H-DEMO-2", "personaId": "D0002", "tituloNeutral": "Antecedente mencionado en prensa (ficticio)", "hecho": "Una nota ficticia informa de una denuncia archivada.", "fechaHecho": "2025-03-02", "criterioIds": ["C-DEMO-1"], "fuenteIds": ["F-DEMO-PRENSA"], "estadoEvidencia": "contradicha_rectificada", "evaluacionNormativa": "antecedente_relevante_sin_efecto_excluyente", "fundamento": "Ficticio: una denuncia no es una condena.", "limites": "No se obtuvo el expediente.", "descargo": "La persona ficticia respondió que el caso fue archivado.", "busquedaDescargoRegistrada": true, "fuentesDescargoIds": ["F-DEMO-DESCARGO"], "decisionOficial": null, "revisionEditorial": "aprobada", "revisionJuridica": "no_aplica", "ultimaRevision": "2026-11-20", "publicable": true}
+  ],
+  "correcciones": [],
+  "cobertura": {"personasCargadas": 3, "postulacionesCargadas": 4, "declaradoEnPdf": null, "auditoria": "Datos ficticios.", "criteriosEvaluados": 1}
+}

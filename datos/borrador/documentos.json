@@ -1,0 +1,25 @@
+[
+  {
+    "id": "DOC-PDF-GANGI-2026",
+    "titulo": "Postulaciones al TSJ 2026 (PDF independiente)",
+    "fuenteId": "F-PDF-LISTADO",
+    "version": "PDF de 37 páginas, creado 2026-11-20 14:13 UTC según metadatos",
+    "naturaleza": "Listado independiente que reproduce un aviso oficial",
+    "esOficial": false,
+    "declaraEnPortada": {"postulaciones": 1343, "personas": 1128, "magistrado": 1066, "inspector": 166, "director": 111, "personasConMasDeUnaPostulacion": 174},
+    "afirmacionesDelAutorNoAuditadas": [
+      "Cada cédula fue verificada contra el Registro Electoral.",
+      "Algunas cédulas vienen mal impresas en el aviso y fueron corregidas por el autor (marcadas con *)."
+    ]
+  },
+  {
+    "id": "DOC-AVISO-AN-2026",
+    "titulo": "Aviso original del Comité de Postulaciones Judiciales",
+    "fuenteId": "F-AVISO-AN",
+    "version": "No obtenido",
+    "naturaleza": "Documento oficial original (pendiente de obtener)",
+    "esOficial": true,
+    "declaraEnPortada": null,
+    "afirmacionesDelAutorNoAuditadas": []
+  }
+]

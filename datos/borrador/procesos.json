@@ -1,0 +1,5 @@
+[
+  {"id": "listado-2026-magistrado", "cargo": "magistrado", "nombre": "Magistradas o magistrados del Tribunal Supremo de Justicia", "documentoId": "DOC-PDF-GANGI-2026", "fase": 1, "declaradas": 1066},
+  {"id": "listado-2026-inspector", "cargo": "inspector", "nombre": "Inspectoras o inspectores (cargo según el listado)", "documentoId": "DOC-PDF-GANGI-2026", "fase": 2, "declaradas": 166},
+  {"id": "listado-2026-director", "cargo": "director", "nombre": "Directoras o directores (cargo según el listado)", "documentoId": "DOC-PDF-GANGI-2026", "fase": 2, "declaradas": 111}
+]
