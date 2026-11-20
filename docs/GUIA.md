@@ -30,3 +30,8 @@ python3 -I tools/construir_publico.py && python3 -I tools/verificar_publico.py
 
 ## 7. Cola de investigación (`datos/borrador/pistas-por-verificar.json`)
 Aquí van las afirmaciones de documentos secundarios aún no verificadas (hoy: 16 pistas del documento «Registro de postulados e impedimentos»). No se distribuyen. Para convertir una en hallazgo: confirmar identidad, obtener documento primario, verificar el criterio en `criterios.json` y pasar revisión editorial y jurídica; solo entonces crear la entrada en `hallazgos.json`.
+
+## 8. Vista interna local y paquete público
+- Vista interna de la cola de investigación: sirva el proyecto y abra `http://localhost:8765/interno/`. Solo carga en `localhost`/`127.0.0.1`; en otro dominio no pide los datos. Las casillas de verificación se guardan solo en ese navegador.
+- Para distribuir: `python3 -I tools/construir_publico.py && python3 -I tools/empaquetar_publico.py` genera `dist/` (index, app, vendor, data, demo). Excluye `interno/`, `datos/`, `tools/` y `docs/`, y aborta si detecta la cola interna.
+- Publicar la carpeta raíz completa, o la rama de git tal cual, **sí** incluiría `interno/` y `datos/borrador/`. Distribuya solo `dist/`.
