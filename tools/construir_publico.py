@@ -18,7 +18,8 @@ CEDULA = re.compile(r"(?<![\d.])\d{1,3}(?:\.\d{3}){1,2}(?![\d.])|\b[VE]-?\s?\d{6
 personas, fuentes, criterios = cargar("personas.json"), cargar("fuentes.json"), cargar("criterios.json")
 hallazgos, correcciones = cargar("hallazgos.json"), cargar("correcciones.json")
 documentos, procesos, normativa, config = cargar("documentos.json"), cargar("procesos.json"), cargar("normativa.json"), cargar("config.json")
-fuente_ids, crit_ids = {f["id"] for f in fuentes}, {c["id"] for c in criterios}
+fuentes_por_id = {f["id"]: f for f in fuentes}
+fuente_ids, crit_ids = set(fuentes_por_id), {c["id"] for c in criterios}
 persona_ids = {p["id"] for p in personas}
 excluidos, errores = [], []
 
@@ -32,6 +33,12 @@ def motivo_exclusion(h):
     if h.get("personaId") not in persona_ids: m.append("personaId inexistente")
     if not h.get("fuenteIds") or any(i not in fuente_ids for i in h["fuenteIds"]): m.append("fuente ausente o inexistente")
     if any(i not in fuente_ids for i in h.get("fuentesDescargoIds", [])): m.append("fuente de descargo inexistente")
+    for i in list(h.get("fuenteIds", [])) + list(h.get("fuentesDescargoIds", [])):
+        f = fuentes_por_id.get(i)
+        if f is None: continue
+        if not f.get("contenidoConsultado"): m.append("fuente %s: contenido no consultado (solo localizada)" % i)
+        if f.get("tipoFuente") == "red_social" and not f.get("identidadCuentaVerificada"): m.append("fuente %s: identidad de la cuenta no verificada" % i)
+        if not f.get("fechaConsulta"): m.append("fuente %s: sin fecha de consulta" % i)
     if any(i not in crit_ids for i in h.get("criterioIds", [])) or not h.get("criterioIds"): m.append("criterio ausente o no verificado")
     if h.get("descargo") is None and not h.get("busquedaDescargoRegistrada"): m.append("sin registro de búsqueda de descargos")
     texto = json.dumps(h, ensure_ascii=False).lower()

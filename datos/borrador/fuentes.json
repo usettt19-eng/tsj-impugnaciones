@@ -10,7 +10,10 @@
     "paginaOSeccion": "Páginas 1–37",
     "citaBreve": null,
     "verificada": false,
-    "nota": "Listado aportado por el editor. Reproduce un aviso oficial; no es el aviso original. Fecha tomada de los metadatos del PDF (20-nov-2026). Sin URL directa registrada."
+    "nota": "Listado aportado por el editor. Reproduce un aviso oficial; no es el aviso original. Fecha tomada de los metadatos del PDF (20-nov-2026). Sin URL directa registrada.",
+    "contenidoConsultado": true,
+    "tipoFuente": "documento",
+    "identidadCuentaVerificada": null
   },
   {
     "id": "F-AVISO-AN",
@@ -23,7 +26,10 @@
     "paginaOSeccion": null,
     "citaBreve": null,
     "verificada": false,
-    "nota": "Fecha según lo declara el PDF. El aviso original NO ha sido obtenido ni cotejado."
+    "nota": "Fecha según lo declara el PDF. El aviso original NO ha sido obtenido ni cotejado.",
+    "contenidoConsultado": false,
+    "tipoFuente": "documento",
+    "identidadCuentaVerificada": null
   },
   {
     "id": "F-BAREMO",
@@ -36,7 +42,10 @@
     "paginaOSeccion": null,
     "citaBreve": null,
     "verificada": false,
-    "nota": "No se pudo leer su contenido íntegro. No se atribuye ningún criterio, puntaje ni umbral."
+    "nota": "No se pudo leer su contenido íntegro. No se atribuye ningún criterio, puntaje ni umbral.",
+    "contenidoConsultado": false,
+    "tipoFuente": "documento",
+    "identidadCuentaVerificada": null
   },
   {
     "id": "F-CRBV",
@@ -49,7 +58,10 @@
     "paginaOSeccion": null,
     "citaBreve": null,
     "verificada": false,
-    "nota": "Enlace suministrado en el encargo. No consultado ni cotejado en esta fase."
+    "nota": "Enlace suministrado en el encargo. No consultado ni cotejado en esta fase.",
+    "contenidoConsultado": false,
+    "tipoFuente": "documento",
+    "identidadCuentaVerificada": null
   },
   {
     "id": "F-TSJ-INSTITUCIONAL",
@@ -62,7 +74,10 @@
     "paginaOSeccion": null,
     "citaBreve": null,
     "verificada": false,
-    "nota": "Enlace suministrado en el encargo. No consultado en esta fase."
+    "nota": "Enlace suministrado en el encargo. No consultado en esta fase.",
+    "contenidoConsultado": false,
+    "tipoFuente": "documento",
+    "identidadCuentaVerificada": null
   },
   {
     "id": "F-MD-IMPEDIMENTOS",
@@ -75,6 +90,9 @@
     "paginaOSeccion": "Secciones 1–4",
     "citaBreve": null,
     "verificada": false,
-    "nota": "Documento aportado por el editor. Atribuye afirmaciones a prensa y a «once ONG» sin enlaces, fechas ni citas. Mezcla hechos, interpretaciones jurídicas y calificaciones («violación», «inhabilitado»). No es fuente primaria ni resolución. Sus afirmaciones son pistas a verificar, no hallazgos."
+    "nota": "Documento aportado por el editor. Atribuye afirmaciones a prensa y a «once ONG» sin enlaces, fechas ni citas. Mezcla hechos, interpretaciones jurídicas y calificaciones («violación», «inhabilitado»). No es fuente primaria ni resolución. Sus afirmaciones son pistas a verificar, no hallazgos.",
+    "contenidoConsultado": false,
+    "tipoFuente": "documento",
+    "identidadCuentaVerificada": null
   }
 ]

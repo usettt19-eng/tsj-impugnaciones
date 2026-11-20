@@ -1,0 +1,57 @@
+{
+  "descripcion": "Catálogo de medios. Regla: no atribuir contenido a un medio hasta verificar su dominio e identidad editorial abriendo su sitio. Nada de lo siguiente está verificado por acceso directo.",
+  "medios": [
+    {
+      "id": "M-ELNACIONAL",
+      "nombreMencionado": "El Nacional",
+      "mencionadoPor": "usuario",
+      "dominioCandidato": "www.elnacional.com",
+      "origenDelDominio": "Ficha de Wikipedia citada en un resumen de buscador; no es el sitio mismo",
+      "identidad": "Candidato: diario venezolano fundado en 1943 (según resumen de buscador). Pendiente de verificar en el sitio.",
+      "homonimosADescartar": [
+        "Otros medios llamados «El Nacional» (por ejemplo, de otros países): posibles homónimos por descartar; no verificados"
+      ],
+      "estadoVerificacion": "no_verificado_por_acceso_directo",
+      "accesoDirecto": "falló: no resuelve el dominio en la red de la sesión (2026-11-20)",
+      "observaciones": "Los resúmenes de la búsqueda tenían fechas internas inconsistentes y mencionan bloqueo del sitio dentro de Venezuela; verificar estado actual."
+    },
+    {
+      "id": "M-REVISTAZ",
+      "nombreMencionado": "Revista Z",
+      "mencionadoPor": "usuario",
+      "dominioCandidato": null,
+      "origenDelDominio": "Sin dominio localizado",
+      "identidad": "AMBIGUO. La búsqueda no encontró una fuente que describa a «Revista Z» como medio venezolano; hay publicaciones con nombres parecidos sin vínculo establecido con Venezuela.",
+      "homonimosADescartar": [
+        "«Z Magazine» y «RevistaZ Magazine» aparecen en un índice de revistas, sin país indicado: no asumir que son este medio"
+      ],
+      "estadoVerificacion": "identidad_ambigua_pedir_confirmacion_al_usuario",
+      "accesoDirecto": "no probado: sin dominio candidato verificado; dos dominios supuestos fallaron por DNS",
+      "observaciones": "No atribuir ningún contenido hasta que el usuario precise el medio (URL o nombre completo)."
+    },
+    {
+      "id": "M-VENEVISION",
+      "nombreMencionado": "Venevisión",
+      "mencionadoPor": "usuario",
+      "dominioCandidato": "venevisionplay.com",
+      "origenDelDominio": "Ficha de Wikipedia citada en un resumen de buscador (servicio de streaming); el dominio venevision.com NO fue confirmado",
+      "identidad": "Candidato: canal privado venezolano con sede en Caracas, propiedad atribuida al Grupo Cisneros (según resumen de buscador).",
+      "homonimosADescartar": [],
+      "estadoVerificacion": "no_verificado_por_acceso_directo",
+      "accesoDirecto": "falló: no resuelve el dominio (2026-11-20)",
+      "observaciones": "Falta localizar el sitio informativo oficial."
+    },
+    {
+      "id": "M-TELEVEN",
+      "nombreMencionado": "Televen",
+      "mencionadoPor": "usuario",
+      "dominioCandidato": "www.televen.com",
+      "origenDelDominio": "Ficha de Wikipedia citada en un resumen de buscador",
+      "identidad": "Candidato: cadena privada venezolana con sede en Caracas (según resumen de buscador). Fechas de lanzamiento discrepantes entre fuentes.",
+      "homonimosADescartar": [],
+      "estadoVerificacion": "no_verificado_por_acceso_directo",
+      "accesoDirecto": "falló: no resuelve el dominio (2026-11-20)",
+      "observaciones": ""
+    }
+  ]
+}

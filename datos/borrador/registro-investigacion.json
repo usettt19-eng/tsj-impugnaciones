@@ -1,0 +1,152 @@
+{
+  "descripcion": "Registro de búsquedas y hallazgos de fuentes abiertas. NO se distribuye. Cada entrada separa cuatro capas: fuente localizada, contenido consultado, hecho corroborado y relevancia jurídica revisada.",
+  "plantillaPorPersona": {
+    "personaId": "P0000",
+    "consulta": "",
+    "fecha": "AAAA-MM-DD",
+    "fuenteLocalizada": {
+      "descripcion": "",
+      "url": "",
+      "autorOCuenta": ""
+    },
+    "contenidoEfectivamenteConsultado": "",
+    "fechaPublicacion": null,
+    "fechaDelHecho": null,
+    "pasajePertinente": "cita breve y contexto",
+    "verificacionIdentidadAutenticidad": "no verificada | verificada (indicar elementos corroborables)",
+    "documentoPrimarioDeRespaldo": null,
+    "evidenciaContradictoria": null,
+    "criterioNormativoRelacionado": null,
+    "limitesDeInterpretacion": "",
+    "resultado": "hallazgo | sin_resultados | acceso_restringido | sin_corroboracion",
+    "hechoCorroborado": false,
+    "relevanciaJuridicaRevisada": false
+  },
+  "entradas": [
+    {
+      "id": "R-001",
+      "tipo": "verificacion_de_medio",
+      "personaId": null,
+      "consulta": "El Nacional diario venezolano sitio web oficial elnacional.com",
+      "fecha": "2026-11-20",
+      "herramienta": "WebSearch (modo estándar)",
+      "fuenteLocalizada": {
+        "descripcion": "Resultados sobre El Nacional (Venezuela); dominio candidato www.elnacional.com según una ficha de Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/El_Nacional_(Venezuela)",
+        "autorOCuenta": null
+      },
+      "contenidoEfectivamenteConsultado": "Solo el resumen generado por el buscador; no se abrió ninguna página",
+      "fechaPublicacion": null,
+      "fechaDelHecho": null,
+      "pasajePertinente": null,
+      "verificacionIdentidadAutenticidad": "no verificada",
+      "documentoPrimarioDeRespaldo": null,
+      "evidenciaContradictoria": null,
+      "criterioNormativoRelacionado": null,
+      "limitesDeInterpretacion": "Un resumen de buscador no es lectura de la fuente.",
+      "resultado": "sin_corroboracion",
+      "hechoCorroborado": false,
+      "relevanciaJuridicaRevisada": false
+    },
+    {
+      "id": "R-002",
+      "tipo": "verificacion_de_medio",
+      "personaId": null,
+      "consulta": "\"Revista Z\" Venezuela medio periodístico",
+      "fecha": "2026-11-20",
+      "herramienta": "WebSearch (modo estándar)",
+      "fuenteLocalizada": {
+        "descripcion": "Ningún resultado describe a «Revista Z» como medio venezolano",
+        "url": null,
+        "autorOCuenta": null
+      },
+      "contenidoEfectivamenteConsultado": "Solo el resumen generado por el buscador; no se abrió ninguna página",
+      "fechaPublicacion": null,
+      "fechaDelHecho": null,
+      "pasajePertinente": null,
+      "verificacionIdentidadAutenticidad": "no verificada",
+      "documentoPrimarioDeRespaldo": null,
+      "evidenciaContradictoria": null,
+      "criterioNormativoRelacionado": null,
+      "limitesDeInterpretacion": "Un resumen de buscador no es lectura de la fuente.",
+      "resultado": "sin_resultados",
+      "hechoCorroborado": false,
+      "relevanciaJuridicaRevisada": false
+    },
+    {
+      "id": "R-003",
+      "tipo": "verificacion_de_medio",
+      "personaId": null,
+      "consulta": "Venevisión canal de televisión Venezuela sitio oficial venevision.com",
+      "fecha": "2026-11-20",
+      "herramienta": "WebSearch (modo estándar)",
+      "fuenteLocalizada": {
+        "descripcion": "Resultados sobre Venevisión; el dominio venevision.com no se confirmó",
+        "url": "https://en.wikipedia.org/wiki/Venevisi%C3%B3n",
+        "autorOCuenta": null
+      },
+      "contenidoEfectivamenteConsultado": "Solo el resumen generado por el buscador; no se abrió ninguna página",
+      "fechaPublicacion": null,
+      "fechaDelHecho": null,
+      "pasajePertinente": null,
+      "verificacionIdentidadAutenticidad": "no verificada",
+      "documentoPrimarioDeRespaldo": null,
+      "evidenciaContradictoria": null,
+      "criterioNormativoRelacionado": null,
+      "limitesDeInterpretacion": "Un resumen de buscador no es lectura de la fuente.",
+      "resultado": "sin_corroboracion",
+      "hechoCorroborado": false,
+      "relevanciaJuridicaRevisada": false
+    },
+    {
+      "id": "R-004",
+      "tipo": "verificacion_de_medio",
+      "personaId": null,
+      "consulta": "Televen canal de televisión Venezuela sitio oficial televen.com",
+      "fecha": "2026-11-20",
+      "herramienta": "WebSearch (modo estándar)",
+      "fuenteLocalizada": {
+        "descripcion": "Resultados sobre Televen; dominio candidato www.televen.com según una ficha de Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Televen",
+        "autorOCuenta": null
+      },
+      "contenidoEfectivamenteConsultado": "Solo el resumen generado por el buscador; no se abrió ninguna página",
+      "fechaPublicacion": null,
+      "fechaDelHecho": null,
+      "pasajePertinente": null,
+      "verificacionIdentidadAutenticidad": "no verificada",
+      "documentoPrimarioDeRespaldo": null,
+      "evidenciaContradictoria": null,
+      "criterioNormativoRelacionado": null,
+      "limitesDeInterpretacion": "Un resumen de buscador no es lectura de la fuente.",
+      "resultado": "sin_corroboracion",
+      "hechoCorroborado": false,
+      "relevanciaJuridicaRevisada": false
+    },
+    {
+      "id": "R-005",
+      "tipo": "acceso_directo",
+      "personaId": null,
+      "consulta": "Apertura directa de 8 URLs candidatas (elnacional.com, .com.do, .cat; televen.com; venevision.com; venevisionplay.com; revistaz.com.ve; revistaz.com)",
+      "fecha": "2026-11-20",
+      "herramienta": "Agente de lectura de páginas",
+      "fuenteLocalizada": null,
+      "contenidoEfectivamenteConsultado": "Ninguno: las 8 fallaron con ENOTFOUND (DNS)",
+      "fechaPublicacion": null,
+      "fechaDelHecho": null,
+      "pasajePertinente": null,
+      "verificacionIdentidadAutenticidad": "no aplica",
+      "documentoPrimarioDeRespaldo": null,
+      "evidenciaContradictoria": null,
+      "criterioNormativoRelacionado": null,
+      "limitesDeInterpretacion": "La red de la sesión está en modo limitado sin hosts permitidos. No dice nada sobre los medios.",
+      "resultado": "acceso_restringido",
+      "hechoCorroborado": false,
+      "relevanciaJuridicaRevisada": false
+    }
+  ],
+  "resumen": {
+    "personasInvestigadas": 0,
+    "observacion": "Ninguna persona del listado ha sido investigada en fuentes abiertas. Las 5 entradas son verificaciones de medios."
+  }
+}

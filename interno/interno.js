@@ -37,6 +37,29 @@
     </article>`;
   }
 
+
+  var RES = { hallazgo: "Hallazgo", sin_resultados: "Sin resultados", acceso_restringido: "Acceso restringido", sin_corroboracion: "Localizada, sin corroborar" };
+  function Capa(props) { return html`<div class="eje"><h4>${props.t}</h4>${props.children}</div>`; }
+  function Registro(props) {
+    var r = props.r;
+    return html`<section aria-labelledby="reg"><h2 id="reg">Registro de investigación en fuentes abiertas</h2>
+      <p class="muted">${r.registro.descripcion}</p>
+      <div class="card warn"><strong>${r.registro.resumen.personasInvestigadas} personas investigadas.</strong> ${r.registro.resumen.observacion}</div>
+      <h3>Medios mencionados y verificación de identidad</h3>
+      <table class="stack"><caption>${r.medios.descripcion}</caption><thead><tr><th scope="col">Medio</th><th scope="col">Dominio candidato</th><th scope="col">Identidad</th><th scope="col">Acceso directo</th><th scope="col">Estado</th></tr></thead>
+        <tbody>${r.medios.medios.map(function (m) { return html`<tr key=${m.id}><td data-label="Medio"><strong>${m.nombreMencionado}</strong></td><td data-label="Dominio">${m.dominioCandidato || "—"}<br/><span class="small muted">${m.origenDelDominio}</span></td><td data-label="Identidad">${m.identidad}${m.homonimosADescartar.length ? html`<br/><span class="small">Homónimos: ${m.homonimosADescartar.join("; ")}</span>` : null}</td><td data-label="Acceso">${m.accesoDirecto}</td><td data-label="Estado"><span class="badge warn"><span aria-hidden="true">?</span> ${m.estadoVerificacion.replace(/_/g, " ")}</span></td></tr>`; })}</tbody></table>
+      <h3>Entradas del registro (${r.registro.entradas.length})</h3>
+      ${r.registro.entradas.map(function (e) {
+        return html`<article class="card" key=${e.id}><h4 style=${{ margin: "0 0 .4rem" }}>${e.id} · ${e.consulta}</h4>
+          <p class="small muted">${e.fecha} · ${e.herramienta} · Resultado: <strong>${RES[e.resultado] || e.resultado}</strong></p>
+          <${Capa} t="1 · Fuente localizada">${e.fuenteLocalizada ? html`<p>${e.fuenteLocalizada.descripcion}${e.fuenteLocalizada.url ? html` — <a href=${e.fuenteLocalizada.url} target="_blank" rel="noopener noreferrer">${e.fuenteLocalizada.url}</a>` : null}</p>` : html`<p>Ninguna.</p>`}<//>
+          <${Capa} t="2 · Contenido efectivamente consultado"><p>${e.contenidoEfectivamenteConsultado}</p><//>
+          <${Capa} t="3 · Hecho corroborado"><p>${e.hechoCorroborado ? "Sí" : "No"}. Identidad/autenticidad: ${e.verificacionIdentidadAutenticidad}.</p><//>
+          <${Capa} t="4 · Relevancia jurídica revisada"><p>${e.relevanciaJuridicaRevisada ? "Sí" : "No"}.</p><//>
+          <p class="small muted">${e.limitesDeInterpretacion}</p></article>`; })}
+    </section>`;
+  }
+
   function App() {
     var _d = useState(null), data = _d[0], setData = _d[1];
     var _e = useState(null), err = _e[0], setErr = _e[1];
@@ -44,7 +67,8 @@
     var _m = useState(leer()), marcas = _m[0], setMarcas = _m[1];
     useEffect(function () {
       if (!LOCAL) return;
-      fetch("../datos/borrador/pistas-por-verificar.json").then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); }).then(setData).catch(function (e) { setErr(String(e)); });
+      var get = function (f) { return fetch("../datos/borrador/" + f).then(function (r) { if (!r.ok) throw new Error(f + ": HTTP " + r.status); return r.json(); }); };
+      Promise.all([get("pistas-por-verificar.json"), get("registro-investigacion.json"), get("medios.json")]).then(function (a) { setData(Object.assign({}, a[0], { registro: a[1], medios: a[2] })); }).catch(function (e) { setErr(String(e)); });
     }, []);
     function setMarca(id, v) { var n = Object.assign({}, marcas); if (v) n[id] = true; else delete n[id]; setMarcas(n); guardar(n); }
 
@@ -67,6 +91,7 @@
         ${lista.length ? lista.map(function (p) { return html`<${Pista} key=${p.id} p=${p} marcas=${marcas} setMarca=${setMarca} />`; }) : html`<div class="card empty">Ninguna pista coincide.</div>`}
         <h2>Material del documento que no se puede atribuir o no se incorporó</h2>
         <ul>${data.noAtribuibles.map(function (n) { return html`<li key=${n.texto}><strong>${n.texto}</strong>: ${n.motivo}</li>`; })}<li>${data.noIncorporadas}</li></ul>
+        <${Registro} r=${data} />
       </main></div>`;
   }
   ReactDOM.createRoot(document.getElementById("root")).render(h(App));

@@ -85,6 +85,7 @@
     return html`<div class="fuente">
       <strong>${u ? html`<a href=${u} target="_blank" rel="noopener noreferrer">${f.titulo}</a>` : f.titulo}</strong>
       <span class=${"badge " + (f.tipo === "primaria" ? "info" : "neutral")}>${f.tipo === "primaria" ? "Fuente primaria" : "Fuente secundaria"}</span>
+      <span class=${"badge " + (f.contenidoConsultado ? "ok" : "warn")}><span aria-hidden="true">${f.contenidoConsultado ? "▣" : "▢"}</span> ${f.contenidoConsultado ? "Contenido consultado" : "Solo localizada (contenido no consultado)"}</span>
       <span class=${"badge " + (f.verificada ? "ok" : "warn")}><span aria-hidden="true">${f.verificada ? "✓" : "?"}</span> ${f.verificada ? "Verificada" : "No verificada"}</span>
       <div class="muted">Emisor: ${f.emisor}${f.paginaOSeccion ? " · " + f.paginaOSeccion : ""}</div>
       <div class="muted">Fecha del documento: ${fechaES(f.fechaDocumento)} · Consultada: ${fechaES(f.fechaConsulta)}${u ? "" : " · Sin enlace directo registrado"}</div>
