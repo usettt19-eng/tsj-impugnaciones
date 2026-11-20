@@ -27,3 +27,6 @@ Reglas que aplica el constructor (ver `motivo_exclusion`): publicable=true; apro
 ```bash
 python3 -I tools/construir_publico.py && python3 -I tools/verificar_publico.py
 ```
+
+## 7. Cola de investigación (`datos/borrador/pistas-por-verificar.json`)
+Aquí van las afirmaciones de documentos secundarios aún no verificadas (hoy: 16 pistas del documento «Registro de postulados e impedimentos»). No se distribuyen. Para convertir una en hallazgo: confirmar identidad, obtener documento primario, verificar el criterio en `criterios.json` y pasar revisión editorial y jurídica; solo entonces crear la entrada en `hallazgos.json`.

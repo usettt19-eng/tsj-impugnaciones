@@ -63,5 +63,18 @@
     "citaBreve": null,
     "verificada": false,
     "nota": "Enlace suministrado en el encargo. No consultado en esta fase."
+  },
+  {
+    "id": "F-MD-IMPEDIMENTOS",
+    "titulo": "«Registro de Postulados e Impedimentos Legales para la Renovación del TSJ (2026)» (documento sin autor ni fecha identificados)",
+    "emisor": "Sin identificar",
+    "url": null,
+    "tipo": "secundaria",
+    "fechaDocumento": null,
+    "fechaConsulta": "2026-11-20",
+    "paginaOSeccion": "Secciones 1–4",
+    "citaBreve": null,
+    "verificada": false,
+    "nota": "Documento aportado por el editor. Atribuye afirmaciones a prensa y a «once ONG» sin enlaces, fechas ni citas. Mezcla hechos, interpretaciones jurídicas y calificaciones («violación», «inhabilitado»). No es fuente primaria ni resolución. Sus afirmaciones son pistas a verificar, no hallazgos."
   }
 ]

@@ -6,7 +6,14 @@
     "version": "PDF de 37 páginas, creado 2026-11-20 14:13 UTC según metadatos",
     "naturaleza": "Listado independiente que reproduce un aviso oficial",
     "esOficial": false,
-    "declaraEnPortada": {"postulaciones": 1343, "personas": 1128, "magistrado": 1066, "inspector": 166, "director": 111, "personasConMasDeUnaPostulacion": 174},
+    "declaraEnPortada": {
+      "postulaciones": 1343,
+      "personas": 1128,
+      "magistrado": 1066,
+      "inspector": 166,
+      "director": 111,
+      "personasConMasDeUnaPostulacion": 174
+    },
     "afirmacionesDelAutorNoAuditadas": [
       "Cada cédula fue verificada contra el Registro Electoral.",
       "Algunas cédulas vienen mal impresas en el aviso y fueron corregidas por el autor (marcadas con *)."
@@ -21,5 +28,20 @@
     "esOficial": true,
     "declaraEnPortada": null,
     "afirmacionesDelAutorNoAuditadas": []
+  },
+  {
+    "id": "DOC-MD-IMPEDIMENTOS",
+    "titulo": "Registro de postulados e impedimentos legales (documento aportado)",
+    "fuenteId": "F-MD-IMPEDIMENTOS",
+    "version": "Sin versión ni fecha",
+    "naturaleza": "Documento analítico de autoría no identificada; fuente secundaria sin verificar",
+    "esOficial": false,
+    "declaraEnPortada": null,
+    "afirmacionesDelAutorNoAuditadas": [
+      "Total de 1343 postulaciones: 1066 a magistrado, 166 a la Inspectoría General de Tribunales y 111 a la Dirección de la Escuela Nacional de la Magistratura (coincide en cifras con el PDF; los nombres de los dos últimos cargos solo figuran en este documento).",
+      "Al menos 16 de los 20 magistrados principales en ejercicio se postularon a la reelección.",
+      "El Comité de Postulaciones Judiciales estaría presidido por un diputado de nombre distinto al del autor del PDF.",
+      "El baremo otorgaría hasta 15 puntos a la entrevista y ventaja a quienes han ocupado cargos públicos."
+    ]
   }
 ]

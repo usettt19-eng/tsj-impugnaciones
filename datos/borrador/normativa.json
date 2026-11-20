@@ -1,12 +1,114 @@
 {
   "estado": "pendiente_de_verificacion",
-  "aviso": "No se ha leído el baremo ni se ha cotejado ninguna disposición. Las entradas siguientes son pistas de trabajo del encargo editorial, no criterios.",
+  "aviso": "No se ha leído el baremo ni se ha cotejado ninguna disposición. Las entradas siguientes son pistas de trabajo (del encargo editorial y de un documento secundario sin verificar), no criterios.",
   "pistas": [
-    {"id": "N-BAREMO", "referencia": "Baremo de evaluación", "fuenteId": "F-BAREMO", "estado": "No leído. Falta: emisor, fecha, versión, páginas, criterios, puntajes y umbrales."},
-    {"id": "N-CRBV-263", "referencia": "Constitución, art. 263 (y posibles vías alternativas de trayectoria profesional)", "fuenteId": "F-CRBV", "estado": "Pista de trabajo mencionada en una sesión anterior. Texto exacto y vigencia sin cotejar. No exigir a la vez requisitos de vías alternativas."},
-    {"id": "N-LOTSJ", "referencia": "Ley Orgánica del TSJ y reformas aplicables", "fuenteId": null, "estado": "Sin fuente primaria obtenida."},
-    {"id": "N-INSTITUCIONAL", "referencia": "Información institucional del TSJ", "fuenteId": "F-TSJ-INSTITUCIONAL", "estado": "Enlace sin consultar."}
+    {
+      "id": "N-BAREMO",
+      "referencia": "Baremo de evaluación",
+      "fuenteId": "F-BAREMO",
+      "estado": "No leído. Falta: emisor, fecha, versión, páginas, criterios, puntajes y umbrales."
+    },
+    {
+      "id": "N-CRBV-263",
+      "referencia": "Constitución, art. 263 (y posibles vías alternativas de trayectoria profesional)",
+      "fuenteId": "F-CRBV",
+      "estado": "Pista de trabajo mencionada en una sesión anterior. Texto exacto y vigencia sin cotejar. No exigir a la vez requisitos de vías alternativas."
+    },
+    {
+      "id": "N-LOTSJ",
+      "referencia": "Ley Orgánica del TSJ y reformas aplicables",
+      "fuenteId": null,
+      "estado": "Sin fuente primaria obtenida."
+    },
+    {
+      "id": "N-INSTITUCIONAL",
+      "referencia": "Información institucional del TSJ",
+      "fuenteId": "F-TSJ-INSTITUCIONAL",
+      "estado": "Enlace sin consultar."
+    },
+    {
+      "id": "N-CRBV-264",
+      "referencia": "Constitución, art. 264 (período único de 12 años; alegada «prohibición de reelección»)",
+      "fuenteId": "F-CRBV",
+      "estado": "Citado por un documento secundario sin verificar. Falta: texto exacto, vigencia y, sobre todo, cómo se aplica a quien ya integra el tribunal y aspira a una nueva elección (¿principales y suplentes?, ¿período en curso?). Es una interpretación jurídica que requiere revisión jurídica antes de presentarse como causal."
+    },
+    {
+      "id": "N-CRBV-255",
+      "referencia": "Constitución, art. 255 (citado en relación con la idoneidad y la conducta de jueces)",
+      "fuenteId": "F-CRBV",
+      "estado": "Citado por un documento secundario. No cotejado."
+    },
+    {
+      "id": "N-LOCGR",
+      "referencia": "Ley Orgánica de la Contraloría General de la República y del Sistema Nacional de Control Fiscal (sanciones administrativas como causa de exclusión, según un documento secundario)",
+      "fuenteId": null,
+      "estado": "Sin fuente primaria obtenida; alcance y vigencia por verificar."
+    },
+    {
+      "id": "N-INCOMPAT",
+      "referencia": "Incompatibilidades alegadas: cargos legislativos, parentesco (2.º consanguinidad / 3.º afinidad) y unión con magistrados o altos funcionarios",
+      "fuenteId": null,
+      "estado": "Alegadas por un documento secundario sin indicar artículo. Pendiente de localizar la norma exacta."
+    },
+    {
+      "id": "N-BAREMO-ALEGADO",
+      "referencia": "Alegaciones sobre el baremo: hasta 15 puntos por entrevista y ventaja para quien ha ocupado cargos públicos",
+      "fuenteId": "F-MD-IMPEDIMENTOS",
+      "estado": "Atribuidas al baremo por un documento secundario. El baremo no ha sido leído; no se acepta ninguna de estas cifras ni valoraciones."
+    }
   ],
-  "clasesDeCriterio": ["elegibilidad", "incompatibilidad", "puntuacion", "otro"],
-  "regla": "Separar requisitos de elegibilidad, incompatibilidades, criterios de puntuación y antecedentes de interés público. Una deducción editorial no es una causal legal automática."
+  "clasesDeCriterio": [
+    "elegibilidad",
+    "incompatibilidad",
+    "puntuacion",
+    "otro"
+  ],
+  "regla": "Separar requisitos de elegibilidad, incompatibilidades, criterios de puntuación y antecedentes de interés público. Una deducción editorial no es una causal legal automática.",
+  "procedimientoImpugnacion": {
+    "aviso": "Comparación de lo que dice cada documento aportado. Ninguno es el aviso oficial; nada de esto es un plazo o requisito confirmado.",
+    "filas": [
+      {
+        "aspecto": "Lapso",
+        "pdf": "21 de noviembre al 5 de diciembre de 2026, ambos días inclusive",
+        "otro": "Igual",
+        "estado": "Coinciden; sin contrastar con el aviso oficial"
+      },
+      {
+        "aspecto": "Forma",
+        "pdf": "Por escrito, en persona y con pruebas",
+        "otro": "Por escrito, personal y con «prueba fehaciente»",
+        "estado": "Coinciden en lo esencial; sin contrastar"
+      },
+      {
+        "aspecto": "Lugar y horario",
+        "pdf": "«Museo Boliviano», Asamblea Nacional; 9:00 a 16:00",
+        "otro": "«Museo Bolivariano» de la Asamblea Nacional en Caracas; 9:00 a 16:00",
+        "estado": "Discrepancia en el nombre del lugar: confirmar en el aviso oficial"
+      },
+      {
+        "aspecto": "Fundamento legal",
+        "pdf": "No indica",
+        "otro": "Art. 71 de la Ley Orgánica del TSJ",
+        "estado": "Sin verificar"
+      },
+      {
+        "aspecto": "Plazos posteriores",
+        "pdf": "No indica",
+        "otro": "Comité: 8 días para admisibilidad y fundamentación; 3 días para resolver tras la audiencia del objetado",
+        "estado": "Solo en el otro documento; sin verificar"
+      },
+      {
+        "aspecto": "Cargos 2 y 3",
+        "pdf": "«Inspector» y «Director» (el PDF no precisa el órgano)",
+        "otro": "Inspectoría General de Tribunales y Dirección de la Escuela Nacional de la Magistratura",
+        "estado": "Sin verificar con el aviso oficial"
+      },
+      {
+        "aspecto": "Presidencia del Comité",
+        "pdf": "No indica",
+        "otro": "Un diputado con un nombre que no aparece en el PDF",
+        "estado": "Sin verificar; no se reproduce aquí"
+      }
+    ]
+  }
 }

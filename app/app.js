@@ -277,7 +277,7 @@
       <ul><li><strong>Fase 1:</strong> aspirantes a magistrado. Inspectores y directores se muestran por separado.</li>
         <li><strong>Procedencia del listado:</strong> PDF «Postulaciones al TSJ 2026» de un proyecto independiente (tsj.macedoniadelnorte.com), de 37 páginas, que dice reproducir un aviso del Comité de Postulaciones Judiciales publicado por la Asamblea Nacional el 20 de noviembre de 2026. <strong>No es el aviso original</strong>, que no ha sido obtenido ni cotejado.</li>
         <li><strong>Actualización del conjunto de datos:</strong> ${fechaES(data.generadoEn)}.</li></ul>
-      ${imp ? html`<div class="card"><strong>Período de impugnaciones anunciado por el PDF:</strong> ${imp.texto} <span class="small muted">(Origen: ${imp.origen}. ${imp.contrastadoConAvisoOficial ? "" : "No contrastado con el aviso oficial vigente: no lo tome como plazo confirmado."})</span></div>` : null}
+      ${imp ? html`<div class="card"><strong>Período de impugnaciones anunciado por el PDF:</strong> ${imp.texto} <span class="small muted">(Origen: ${imp.origen}. ${imp.nota ? imp.nota + " " : ""}${imp.contrastadoConAvisoOficial ? "" : "No contrastado con el aviso oficial vigente: no lo tome como plazo confirmado."})</span></div>` : null}
       <h2>Cobertura y estado de la revisión</h2>
       <div class="grid">
         <div class="metric"><b>${nf(c.personasCargadas)}</b><span>personas cargadas${d ? " de " + nf(d.personas) + " declaradas en el PDF" : ""}</span></div>
@@ -337,6 +337,13 @@
         var f = p.fuenteId ? ix.fuentes[p.fuenteId] : null, u = f && safeUrl(f.url);
         return html`<li key=${p.id}><strong>${p.referencia}</strong>. ${p.estado} ${u ? html`<a href=${u} target="_blank" rel="noopener noreferrer">Enlace suministrado (no consultado)</a>` : null}</li>`;
       })}</ul>
+      ${n.procedimientoImpugnacion ? html`<div>
+        <h2>Procedimiento de impugnación: qué dice cada documento</h2>
+        <p class="card warn">${n.procedimientoImpugnacion.aviso}</p>
+        <table class="stack"><caption>Comparación entre el PDF del listado y otro documento aportado (ninguno es el aviso oficial)</caption>
+          <thead><tr><th scope="col">Aspecto</th><th scope="col">PDF del listado</th><th scope="col">Otro documento aportado</th><th scope="col">Estado</th></tr></thead>
+          <tbody>${n.procedimientoImpugnacion.filas.map(function (r) { return html`<tr key=${r.aspecto}><td data-label="Aspecto"><strong>${r.aspecto}</strong></td><td data-label="PDF">${r.pdf}</td><td data-label="Otro documento">${r.otro}</td><td data-label="Estado">${r.estado}</td></tr>`; })}</tbody></table>
+      </div>` : null}
       <h2>Regla de clasificación</h2>
       <p>${n.regla} Clases previstas: ${n.clasesDeCriterio.join(", ")}.</p>
     </div>`;

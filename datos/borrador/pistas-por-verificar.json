@@ -1,0 +1,641 @@
+{
+  "descripcion": "Cola de investigación. NO se distribuye: no es leída por construir_publico.py. Una pista pasa a hallazgos.json solo con fuente real, criterio verificado y revisión editorial (y jurídica).",
+  "origen": "F-MD-IMPEDIMENTOS",
+  "pistas": [
+    {
+      "id": "PV-001",
+      "nombreEnDocumento": "Caryslia Beatriz Rodríguez",
+      "personaCandidatos": [
+        {
+          "personaId": "P0916",
+          "nombreEnListado": "RODRÍGUEZ RODRÍGUEZ CARYSLIA BEATRIZ",
+          "postulaciones": [
+            {
+              "cargo": "magistrado",
+              "numeroEnFuente": 867,
+              "pagina": 23
+            }
+          ],
+          "coincidencia": "por nombre parcial; identidad por confirmar"
+        }
+      ],
+      "lo_que_dice_el_documento": {
+        "cargoOCondicion": "Presidenta en ejercicio del TSJ; Sala Electoral",
+        "alegacion": "Art. 264; participación en convalidación de las elecciones de 2024 («denuncias de fraude»); «falta de independencia política»"
+      },
+      "fuenteIds": [
+        "F-MD-IMPEDIMENTOS"
+      ],
+      "tipoDeAfirmacion": [
+        "Hecho por verificar: ejerce como magistrado/a principal y desde cuándo",
+        "Interpretación jurídica por revisar: aplicación del art. 264 a quien aspira a una nueva elección",
+        "Calificaciones y atribuciones políticas: sin fuente específica; no usar"
+      ],
+      "estado": "pendiente_de_investigar",
+      "publicable": false,
+      "verificacionesNecesarias": [
+        "Confirmar identidad exacta frente al listado y frente a la lista oficial de magistrados (nombre completo)",
+        "Documento primario de designación (Gaceta/TSJ), fecha y carácter (principal/suplente)",
+        "Texto exacto y vigencia del art. 264 y su interpretación aplicable; revisión jurídica",
+        "Buscar descargo o respuesta",
+        "No incluir las calificaciones políticas del documento sin fuente primaria"
+      ]
+    },
+    {
+      "id": "PV-002",
+      "nombreEnDocumento": "Tania D'Amelio",
+      "personaCandidatos": [
+        {
+          "personaId": "P0270",
+          "nombreEnListado": "D'AMELIO CARDIET TANIA",
+          "postulaciones": [
+            {
+              "cargo": "magistrado",
+              "numeroEnFuente": 256,
+              "pagina": 7
+            }
+          ],
+          "coincidencia": "por nombre parcial; identidad por confirmar"
+        }
+      ],
+      "lo_que_dice_el_documento": {
+        "cargoOCondicion": "Magistrada en ejercicio; Sala Constitucional; exrectora del CNE",
+        "alegacion": "Art. 264; autoría de una sentencia sobre juramentación; «afinidad partidista»"
+      },
+      "fuenteIds": [
+        "F-MD-IMPEDIMENTOS"
+      ],
+      "tipoDeAfirmacion": [
+        "Hecho por verificar: ejerce como magistrado/a principal y desde cuándo",
+        "Interpretación jurídica por revisar: aplicación del art. 264 a quien aspira a una nueva elección",
+        "Calificaciones y atribuciones políticas: sin fuente específica; no usar"
+      ],
+      "estado": "pendiente_de_investigar",
+      "publicable": false,
+      "verificacionesNecesarias": [
+        "Confirmar identidad exacta frente al listado y frente a la lista oficial de magistrados (nombre completo)",
+        "Documento primario de designación (Gaceta/TSJ), fecha y carácter (principal/suplente)",
+        "Texto exacto y vigencia del art. 264 y su interpretación aplicable; revisión jurídica",
+        "Buscar descargo o respuesta",
+        "No incluir las calificaciones políticas del documento sin fuente primaria"
+      ]
+    },
+    {
+      "id": "PV-003",
+      "nombreEnDocumento": "Michel Velásquez",
+      "personaCandidatos": [
+        {
+          "personaId": "P1093",
+          "nombreEnListado": "VELÁSQUEZ GRILLET MICHEL ADRIANA",
+          "postulaciones": [
+            {
+              "cargo": "magistrado",
+              "numeroEnFuente": 1034,
+              "pagina": 27
+            }
+          ],
+          "coincidencia": "por nombre parcial; identidad por confirmar"
+        }
+      ],
+      "lo_que_dice_el_documento": {
+        "cargoOCondicion": "Magistrado/a en ejercicio; Sala Constitucional",
+        "alegacion": "Art. 264; «subordinación a políticas represivas» según ONG"
+      },
+      "fuenteIds": [
+        "F-MD-IMPEDIMENTOS"
+      ],
+      "tipoDeAfirmacion": [
+        "Hecho por verificar: ejerce como magistrado/a principal y desde cuándo",
+        "Interpretación jurídica por revisar: aplicación del art. 264 a quien aspira a una nueva elección",
+        "Calificaciones y atribuciones políticas: sin fuente específica; no usar"
+      ],
+      "estado": "pendiente_de_investigar",
+      "publicable": false,
+      "verificacionesNecesarias": [
+        "Confirmar identidad exacta frente al listado y frente a la lista oficial de magistrados (nombre completo)",
+        "Documento primario de designación (Gaceta/TSJ), fecha y carácter (principal/suplente)",
+        "Texto exacto y vigencia del art. 264 y su interpretación aplicable; revisión jurídica",
+        "Buscar descargo o respuesta",
+        "No incluir las calificaciones políticas del documento sin fuente primaria"
+      ]
+    },
+    {
+      "id": "PV-004",
+      "nombreEnDocumento": "Janette Córdova",
+      "personaCandidatos": [
+        {
+          "personaId": "P0258",
+          "nombreEnListado": "CORDOVA CASTRO JANETTE TRINIDAD",
+          "postulaciones": [
+            {
+              "cargo": "magistrado",
+              "numeroEnFuente": 244,
+              "pagina": 7
+            }
+          ],
+          "coincidencia": "por nombre parcial; identidad por confirmar"
+        }
+      ],
+      "lo_que_dice_el_documento": {
+        "cargoOCondicion": "Magistrada en ejercicio; Sala Constitucional",
+        "alegacion": "Art. 264"
+      },
+      "fuenteIds": [
+        "F-MD-IMPEDIMENTOS"
+      ],
+      "tipoDeAfirmacion": [
+        "Hecho por verificar: ejerce como magistrado/a principal y desde cuándo",
+        "Interpretación jurídica por revisar: aplicación del art. 264 a quien aspira a una nueva elección",
+        "Calificaciones y atribuciones políticas: sin fuente específica; no usar"
+      ],
+      "estado": "pendiente_de_investigar",
+      "publicable": false,
+      "verificacionesNecesarias": [
+        "Confirmar identidad exacta frente al listado y frente a la lista oficial de magistrados (nombre completo)",
+        "Documento primario de designación (Gaceta/TSJ), fecha y carácter (principal/suplente)",
+        "Texto exacto y vigencia del art. 264 y su interpretación aplicable; revisión jurídica",
+        "Buscar descargo o respuesta",
+        "No incluir las calificaciones políticas del documento sin fuente primaria"
+      ]
+    },
+    {
+      "id": "PV-005",
+      "nombreEnDocumento": "Anabel Hernández",
+      "personaCandidatos": [
+        {
+          "personaId": "P0486",
+          "nombreEnListado": "HERNÁNDEZ ROBLES ANABEL DEL CARMEN",
+          "postulaciones": [
+            {
+              "cargo": "magistrado",
+              "numeroEnFuente": 462,
+              "pagina": 13
+            }
+          ],
+          "coincidencia": "por nombre parcial; identidad por confirmar"
+        }
+      ],
+      "lo_que_dice_el_documento": {
+        "cargoOCondicion": "Magistrada en ejercicio; Sala Constitucional",
+        "alegacion": "Art. 264; «ausencia de independencia»"
+      },
+      "fuenteIds": [
+        "F-MD-IMPEDIMENTOS"
+      ],
+      "tipoDeAfirmacion": [
+        "Hecho por verificar: ejerce como magistrado/a principal y desde cuándo",
+        "Interpretación jurídica por revisar: aplicación del art. 264 a quien aspira a una nueva elección",
+        "Calificaciones y atribuciones políticas: sin fuente específica; no usar"
+      ],
+      "estado": "pendiente_de_investigar",
+      "publicable": false,
+      "verificacionesNecesarias": [
+        "Confirmar identidad exacta frente al listado y frente a la lista oficial de magistrados (nombre completo)",
+        "Documento primario de designación (Gaceta/TSJ), fecha y carácter (principal/suplente)",
+        "Texto exacto y vigencia del art. 264 y su interpretación aplicable; revisión jurídica",
+        "Buscar descargo o respuesta",
+        "No incluir las calificaciones políticas del documento sin fuente primaria"
+      ]
+    },
+    {
+      "id": "PV-006",
+      "nombreEnDocumento": "Jaime Báez",
+      "personaCandidatos": [
+        {
+          "personaId": "P0086",
+          "nombreEnListado": "BÁEZ JIMÉNEZ JAIME JESÚS",
+          "postulaciones": [
+            {
+              "cargo": "magistrado",
+              "numeroEnFuente": 80,
+              "pagina": 3
+            }
+          ],
+          "coincidencia": "por nombre parcial; identidad por confirmar"
+        }
+      ],
+      "lo_que_dice_el_documento": {
+        "cargoOCondicion": "Magistrado en ejercicio; Sala Político-Administrativa",
+        "alegacion": "Art. 264"
+      },
+      "fuenteIds": [
+        "F-MD-IMPEDIMENTOS"
+      ],
+      "tipoDeAfirmacion": [
+        "Hecho por verificar: ejerce como magistrado/a principal y desde cuándo",
+        "Interpretación jurídica por revisar: aplicación del art. 264 a quien aspira a una nueva elección",
+        "Calificaciones y atribuciones políticas: sin fuente específica; no usar"
+      ],
+      "estado": "pendiente_de_investigar",
+      "publicable": false,
+      "verificacionesNecesarias": [
+        "Confirmar identidad exacta frente al listado y frente a la lista oficial de magistrados (nombre completo)",
+        "Documento primario de designación (Gaceta/TSJ), fecha y carácter (principal/suplente)",
+        "Texto exacto y vigencia del art. 264 y su interpretación aplicable; revisión jurídica",
+        "Buscar descargo o respuesta",
+        "No incluir las calificaciones políticas del documento sin fuente primaria"
+      ]
+    },
+    {
+      "id": "PV-007",
+      "nombreEnDocumento": "Juan Pablo Torre",
+      "personaCandidatos": [
+        {
+          "personaId": "P1053",
+          "nombreEnListado": "TORRES DELGADO JUAN PABLO",
+          "postulaciones": [
+            {
+              "cargo": "magistrado",
+              "numeroEnFuente": 995,
+              "pagina": 26
+            }
+          ],
+          "coincidencia": "por nombre parcial; identidad por confirmar"
+        }
+      ],
+      "lo_que_dice_el_documento": {
+        "cargoOCondicion": "Magistrado en ejercicio; Sala Político-Administrativa",
+        "alegacion": "Art. 264. El nombre del documento no coincide exactamente con el listado (TORRES)"
+      },
+      "fuenteIds": [
+        "F-MD-IMPEDIMENTOS"
+      ],
+      "tipoDeAfirmacion": [
+        "Hecho por verificar: ejerce como magistrado/a principal y desde cuándo",
+        "Interpretación jurídica por revisar: aplicación del art. 264 a quien aspira a una nueva elección",
+        "Calificaciones y atribuciones políticas: sin fuente específica; no usar"
+      ],
+      "estado": "pendiente_de_investigar",
+      "publicable": false,
+      "verificacionesNecesarias": [
+        "Confirmar identidad exacta frente al listado y frente a la lista oficial de magistrados (nombre completo)",
+        "Documento primario de designación (Gaceta/TSJ), fecha y carácter (principal/suplente)",
+        "Texto exacto y vigencia del art. 264 y su interpretación aplicable; revisión jurídica",
+        "Buscar descargo o respuesta",
+        "No incluir las calificaciones políticas del documento sin fuente primaria"
+      ]
+    },
+    {
+      "id": "PV-008",
+      "nombreEnDocumento": "Luis Emilio Rondón",
+      "personaCandidatos": [
+        {
+          "personaId": "P0951",
+          "nombreEnListado": "RONDÓN GONZÁLEZ LUIS EMILIO",
+          "postulaciones": [
+            {
+              "cargo": "magistrado",
+              "numeroEnFuente": 902,
+              "pagina": 23
+            }
+          ],
+          "coincidencia": "por nombre parcial; identidad por confirmar"
+        }
+      ],
+      "lo_que_dice_el_documento": {
+        "cargoOCondicion": "Magistrado en ejercicio; Sala Político-Administrativa",
+        "alegacion": "Art. 264"
+      },
+      "fuenteIds": [
+        "F-MD-IMPEDIMENTOS"
+      ],
+      "tipoDeAfirmacion": [
+        "Hecho por verificar: ejerce como magistrado/a principal y desde cuándo",
+        "Interpretación jurídica por revisar: aplicación del art. 264 a quien aspira a una nueva elección",
+        "Calificaciones y atribuciones políticas: sin fuente específica; no usar"
+      ],
+      "estado": "pendiente_de_investigar",
+      "publicable": false,
+      "verificacionesNecesarias": [
+        "Confirmar identidad exacta frente al listado y frente a la lista oficial de magistrados (nombre completo)",
+        "Documento primario de designación (Gaceta/TSJ), fecha y carácter (principal/suplente)",
+        "Texto exacto y vigencia del art. 264 y su interpretación aplicable; revisión jurídica",
+        "Buscar descargo o respuesta",
+        "No incluir las calificaciones políticas del documento sin fuente primaria"
+      ]
+    },
+    {
+      "id": "PV-009",
+      "nombreEnDocumento": "Emilio Antonio Ramos",
+      "personaCandidatos": [
+        {
+          "personaId": "P0859",
+          "nombreEnListado": "RAMOS GONZÁLEZ EMILIO ANTONIO",
+          "postulaciones": [
+            {
+              "cargo": "magistrado",
+              "numeroEnFuente": 816,
+              "pagina": 21
+            }
+          ],
+          "coincidencia": "por nombre parcial; identidad por confirmar"
+        }
+      ],
+      "lo_que_dice_el_documento": {
+        "cargoOCondicion": "Magistrado en ejercicio; Sala Electoral",
+        "alegacion": "Art. 264; «parcialidad electoral» en fallos"
+      },
+      "fuenteIds": [
+        "F-MD-IMPEDIMENTOS"
+      ],
+      "tipoDeAfirmacion": [
+        "Hecho por verificar: ejerce como magistrado/a principal y desde cuándo",
+        "Interpretación jurídica por revisar: aplicación del art. 264 a quien aspira a una nueva elección",
+        "Calificaciones y atribuciones políticas: sin fuente específica; no usar"
+      ],
+      "estado": "pendiente_de_investigar",
+      "publicable": false,
+      "verificacionesNecesarias": [
+        "Confirmar identidad exacta frente al listado y frente a la lista oficial de magistrados (nombre completo)",
+        "Documento primario de designación (Gaceta/TSJ), fecha y carácter (principal/suplente)",
+        "Texto exacto y vigencia del art. 264 y su interpretación aplicable; revisión jurídica",
+        "Buscar descargo o respuesta",
+        "No incluir las calificaciones políticas del documento sin fuente primaria"
+      ]
+    },
+    {
+      "id": "PV-010",
+      "nombreEnDocumento": "José Luis Gutiérrez",
+      "personaCandidatos": [
+        {
+          "personaId": "P0457",
+          "nombreEnListado": "GUTIÉRREZ PARRA JOSÉ LUIS",
+          "postulaciones": [
+            {
+              "cargo": "magistrado",
+              "numeroEnFuente": 435,
+              "pagina": 12
+            }
+          ],
+          "coincidencia": "por nombre parcial; identidad por confirmar"
+        }
+      ],
+      "lo_que_dice_el_documento": {
+        "cargoOCondicion": "Magistrado en ejercicio; Sala Electoral",
+        "alegacion": "Art. 264"
+      },
+      "fuenteIds": [
+        "F-MD-IMPEDIMENTOS"
+      ],
+      "tipoDeAfirmacion": [
+        "Hecho por verificar: ejerce como magistrado/a principal y desde cuándo",
+        "Interpretación jurídica por revisar: aplicación del art. 264 a quien aspira a una nueva elección",
+        "Calificaciones y atribuciones políticas: sin fuente específica; no usar"
+      ],
+      "estado": "pendiente_de_investigar",
+      "publicable": false,
+      "verificacionesNecesarias": [
+        "Confirmar identidad exacta frente al listado y frente a la lista oficial de magistrados (nombre completo)",
+        "Documento primario de designación (Gaceta/TSJ), fecha y carácter (principal/suplente)",
+        "Texto exacto y vigencia del art. 264 y su interpretación aplicable; revisión jurídica",
+        "Buscar descargo o respuesta",
+        "No incluir las calificaciones políticas del documento sin fuente primaria"
+      ]
+    },
+    {
+      "id": "PV-011",
+      "nombreEnDocumento": "Jacqueline Sosa",
+      "personaCandidatos": [
+        {
+          "personaId": "P1026",
+          "nombreEnListado": "SOSA MARIÑO JACQUELINE DEL VALLE",
+          "postulaciones": [
+            {
+              "cargo": "magistrado",
+              "numeroEnFuente": 971,
+              "pagina": 25
+            }
+          ],
+          "coincidencia": "por nombre parcial; identidad por confirmar"
+        }
+      ],
+      "lo_que_dice_el_documento": {
+        "cargoOCondicion": "Magistrada en ejercicio; Sala Electoral",
+        "alegacion": "Art. 264"
+      },
+      "fuenteIds": [
+        "F-MD-IMPEDIMENTOS"
+      ],
+      "tipoDeAfirmacion": [
+        "Hecho por verificar: ejerce como magistrado/a principal y desde cuándo",
+        "Interpretación jurídica por revisar: aplicación del art. 264 a quien aspira a una nueva elección",
+        "Calificaciones y atribuciones políticas: sin fuente específica; no usar"
+      ],
+      "estado": "pendiente_de_investigar",
+      "publicable": false,
+      "verificacionesNecesarias": [
+        "Confirmar identidad exacta frente al listado y frente a la lista oficial de magistrados (nombre completo)",
+        "Documento primario de designación (Gaceta/TSJ), fecha y carácter (principal/suplente)",
+        "Texto exacto y vigencia del art. 264 y su interpretación aplicable; revisión jurídica",
+        "Buscar descargo o respuesta",
+        "No incluir las calificaciones políticas del documento sin fuente primaria"
+      ]
+    },
+    {
+      "id": "PV-012",
+      "nombreEnDocumento": "Carmen Castro",
+      "personaCandidatos": [
+        {
+          "personaId": "P0218",
+          "nombreEnListado": "CASTRO GILLY CARMEN MARISELA",
+          "postulaciones": [
+            {
+              "cargo": "magistrado",
+              "numeroEnFuente": 205,
+              "pagina": 6
+            }
+          ],
+          "coincidencia": "por nombre parcial; identidad por confirmar"
+        }
+      ],
+      "lo_que_dice_el_documento": {
+        "cargoOCondicion": "Magistrada en ejercicio; Sala de Casación Penal",
+        "alegacion": "Art. 264; señalamientos de ONG sobre uso del sistema penal. Nombre abreviado: hay otra coincidencia posible"
+      },
+      "fuenteIds": [
+        "F-MD-IMPEDIMENTOS"
+      ],
+      "tipoDeAfirmacion": [
+        "Hecho por verificar: ejerce como magistrado/a principal y desde cuándo",
+        "Interpretación jurídica por revisar: aplicación del art. 264 a quien aspira a una nueva elección",
+        "Calificaciones y atribuciones políticas: sin fuente específica; no usar"
+      ],
+      "estado": "pendiente_de_investigar",
+      "publicable": false,
+      "verificacionesNecesarias": [
+        "Confirmar identidad exacta frente al listado y frente a la lista oficial de magistrados (nombre completo)",
+        "Documento primario de designación (Gaceta/TSJ), fecha y carácter (principal/suplente)",
+        "Texto exacto y vigencia del art. 264 y su interpretación aplicable; revisión jurídica",
+        "Buscar descargo o respuesta",
+        "No incluir las calificaciones políticas del documento sin fuente primaria"
+      ]
+    },
+    {
+      "id": "PV-013",
+      "nombreEnDocumento": "Eulalia Guerrero",
+      "personaCandidatos": [
+        {
+          "personaId": "P0445",
+          "nombreEnListado": "GUERRERO RIVERO EULALIA COROMOTO",
+          "postulaciones": [
+            {
+              "cargo": "magistrado",
+              "numeroEnFuente": 423,
+              "pagina": 12
+            }
+          ],
+          "coincidencia": "por nombre parcial; identidad por confirmar"
+        }
+      ],
+      "lo_que_dice_el_documento": {
+        "cargoOCondicion": "Magistrada en ejercicio; Sala de Casación Penal",
+        "alegacion": "Art. 264"
+      },
+      "fuenteIds": [
+        "F-MD-IMPEDIMENTOS"
+      ],
+      "tipoDeAfirmacion": [
+        "Hecho por verificar: ejerce como magistrado/a principal y desde cuándo",
+        "Interpretación jurídica por revisar: aplicación del art. 264 a quien aspira a una nueva elección",
+        "Calificaciones y atribuciones políticas: sin fuente específica; no usar"
+      ],
+      "estado": "pendiente_de_investigar",
+      "publicable": false,
+      "verificacionesNecesarias": [
+        "Confirmar identidad exacta frente al listado y frente a la lista oficial de magistrados (nombre completo)",
+        "Documento primario de designación (Gaceta/TSJ), fecha y carácter (principal/suplente)",
+        "Texto exacto y vigencia del art. 264 y su interpretación aplicable; revisión jurídica",
+        "Buscar descargo o respuesta",
+        "No incluir las calificaciones políticas del documento sin fuente primaria"
+      ]
+    },
+    {
+      "id": "PV-014",
+      "nombreEnDocumento": "Elías Bittar",
+      "personaCandidatos": [
+        {
+          "personaId": "P0127",
+          "nombreEnListado": "BITTAR ESCALONA ELÍAS RUBÉN",
+          "postulaciones": [
+            {
+              "cargo": "magistrado",
+              "numeroEnFuente": 118,
+              "pagina": 4
+            }
+          ],
+          "coincidencia": "por nombre parcial; identidad por confirmar"
+        }
+      ],
+      "lo_que_dice_el_documento": {
+        "cargoOCondicion": "Magistrado en ejercicio; Sala de Casación Social",
+        "alegacion": "Art. 264"
+      },
+      "fuenteIds": [
+        "F-MD-IMPEDIMENTOS"
+      ],
+      "tipoDeAfirmacion": [
+        "Hecho por verificar: ejerce como magistrado/a principal y desde cuándo",
+        "Interpretación jurídica por revisar: aplicación del art. 264 a quien aspira a una nueva elección",
+        "Calificaciones y atribuciones políticas: sin fuente específica; no usar"
+      ],
+      "estado": "pendiente_de_investigar",
+      "publicable": false,
+      "verificacionesNecesarias": [
+        "Confirmar identidad exacta frente al listado y frente a la lista oficial de magistrados (nombre completo)",
+        "Documento primario de designación (Gaceta/TSJ), fecha y carácter (principal/suplente)",
+        "Texto exacto y vigencia del art. 264 y su interpretación aplicable; revisión jurídica",
+        "Buscar descargo o respuesta",
+        "No incluir las calificaciones políticas del documento sin fuente primaria"
+      ]
+    },
+    {
+      "id": "PV-015",
+      "nombreEnDocumento": "Eneida Moreno",
+      "personaCandidatos": [
+        {
+          "personaId": "P0676",
+          "nombreEnListado": "MORENO PÉREZ ENEIDA ALEXANDRA",
+          "postulaciones": [
+            {
+              "cargo": "magistrado",
+              "numeroEnFuente": 641,
+              "pagina": 17
+            }
+          ],
+          "coincidencia": "por nombre parcial; identidad por confirmar"
+        }
+      ],
+      "lo_que_dice_el_documento": {
+        "cargoOCondicion": "Magistrada en ejercicio; Sala de Casación Social",
+        "alegacion": "Art. 264"
+      },
+      "fuenteIds": [
+        "F-MD-IMPEDIMENTOS"
+      ],
+      "tipoDeAfirmacion": [
+        "Hecho por verificar: ejerce como magistrado/a principal y desde cuándo",
+        "Interpretación jurídica por revisar: aplicación del art. 264 a quien aspira a una nueva elección",
+        "Calificaciones y atribuciones políticas: sin fuente específica; no usar"
+      ],
+      "estado": "pendiente_de_investigar",
+      "publicable": false,
+      "verificacionesNecesarias": [
+        "Confirmar identidad exacta frente al listado y frente a la lista oficial de magistrados (nombre completo)",
+        "Documento primario de designación (Gaceta/TSJ), fecha y carácter (principal/suplente)",
+        "Texto exacto y vigencia del art. 264 y su interpretación aplicable; revisión jurídica",
+        "Buscar descargo o respuesta",
+        "No incluir las calificaciones políticas del documento sin fuente primaria"
+      ]
+    },
+    {
+      "id": "PV-016",
+      "nombreEnDocumento": "Edelio González",
+      "personaCandidatos": [
+        {
+          "personaId": "P0413",
+          "nombreEnListado": "GONZÁLEZ DÍAZ EDELIO ISABEL",
+          "postulaciones": [
+            {
+              "cargo": "magistrado",
+              "numeroEnFuente": 391,
+              "pagina": 11
+            }
+          ],
+          "coincidencia": "por nombre parcial; identidad por confirmar"
+        }
+      ],
+      "lo_que_dice_el_documento": {
+        "cargoOCondicion": "Magistrado en ejercicio; Sala de Casación Social",
+        "alegacion": "Art. 264. Nombre abreviado: verificar apellidos"
+      },
+      "fuenteIds": [
+        "F-MD-IMPEDIMENTOS"
+      ],
+      "tipoDeAfirmacion": [
+        "Hecho por verificar: ejerce como magistrado/a principal y desde cuándo",
+        "Interpretación jurídica por revisar: aplicación del art. 264 a quien aspira a una nueva elección",
+        "Calificaciones y atribuciones políticas: sin fuente específica; no usar"
+      ],
+      "estado": "pendiente_de_investigar",
+      "publicable": false,
+      "verificacionesNecesarias": [
+        "Confirmar identidad exacta frente al listado y frente a la lista oficial de magistrados (nombre completo)",
+        "Documento primario de designación (Gaceta/TSJ), fecha y carácter (principal/suplente)",
+        "Texto exacto y vigencia del art. 264 y su interpretación aplicable; revisión jurídica",
+        "Buscar descargo o respuesta",
+        "No incluir las calificaciones políticas del documento sin fuente primaria"
+      ]
+    }
+  ],
+  "noAtribuibles": [
+    {
+      "texto": "«Diputado en ejercicio no identificado por nombre en listas públicas»",
+      "motivo": "No identifica a ninguna persona; no se puede vincular a un registro."
+    },
+    {
+      "texto": "«Jueces y fiscales penales en funciones»",
+      "motivo": "Categoría colectiva, sin nombres. Imputar a un grupo no es un hallazgo individual."
+    }
+  ],
+  "noIncorporadas": "Personas citadas como perjudicadas por el baremo (8 juristas): no se incorporan; no se les imputa nada y la alegación se registra solo como pista sobre el baremo."
+}

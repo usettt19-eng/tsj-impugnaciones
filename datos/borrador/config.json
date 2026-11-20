@@ -7,6 +7,7 @@
   "periodoImpugnacionesAnunciado": {
     "texto": "Del 21 de noviembre al 5 de diciembre de 2026, por escrito, en persona y con pruebas; Museo Boliviano, Asamblea Nacional; 9:00 a 16:00.",
     "origen": "Portada del PDF independiente",
-    "contrastadoConAvisoOficial": false
+    "contrastadoConAvisoOficial": false,
+    "nota": "El lugar figura como «Museo Boliviano» en el PDF y como «Museo Bolivariano» en otro documento aportado: confirmar en el aviso oficial."
   }
 }
